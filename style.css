@@ -20,9 +20,10 @@ body {
 
 .side_bar {
     width: 5%;
-    height:100vh;        
+    height: 100vh;
     margin-left: 4px;
     position: fixed;
+    overflow: scroll;
 }
 
 .side_bar a {
@@ -38,6 +39,7 @@ body {
     font-size: 12px;
     color: black;
     border-radius: 10px;
+  
 }
 
 .aside_buttons:hover {
@@ -47,17 +49,20 @@ body {
 
 .top_scrolling_bar {
     align-items: center;
-    overflow-x:auto;
+    overflow-x: auto;
     height: 60px;
     width: 100%;
-    position:fixed;
+    position: fixed;
     z-index: 1000;
     background-color: white;
     padding: 10px;
 
-    
+
 }
 
+.w-50 {
+    width: 79%!important;
+}
 .nav {
     display: flex;
     flex-wrap: nowrap;
@@ -89,65 +94,68 @@ body {
     color: #000000;
 }
 
-body {
-    /* overflow-y: hidden; */
-    /* Hide the vertical scrollbar */
-} 
-
 aside::-webkit-scrollbar {
     height: 0px;
     width: 0px;
 }
 
-.body_section{
+.body_section {
     width: 94%;
     padding-left: 6%;
-   
-    /* display: flex;
-    flex-direction: column; */
     align-items: center;
 }
 
 
-.youtube_video_body{
+.youtube_video_body {
     padding-top: 100px;
     overflow: hidden;
+    margin: 20px;
+
+
+}
+
+
+.card iframe {
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 15px;
     
 }
 
-/* .card-title{
-    font-size: 10px;
-} */
+.card-title {
+    font-size: 16px;
 
-.card{
-    width: auto;
+    margin-bottom: 10px;
 
-    overflow: hidden;
+}
+
+.card-text {
+    font-size: 14px;
+
+    color: #555;
+}
+
+.card {
+    /* width: auto; */
+  
+    border: solid 1px white;
+    margin-bottom: 20px;
+    height: 100%;
+ 
 }
 
 
-/* iframe:hover{
 
-    <iframe width="428" height="250" src="https://www.youtube.com/embed/3ZFVEuAD-JY?si=KTLmPjzGtQyirk5a"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
+
+ 
+.card iframe:hover{
+  
+    border-radius: 0px;
+    transition: 1.5s;
 }
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
