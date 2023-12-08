@@ -1,0 +1,153 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body_under_nav {
+    display: flex;
+
+}
+
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: rgb(158, 149, 149);
+    border-color: var(--bs-btn-hover-border-color);
+    border: none;
+}
+
+
+
+.side_bar {
+    width: 5%;
+    height:100vh;        
+    margin-left: 4px;
+    position: fixed;
+}
+
+.side_bar a {
+    text-decoration: none;
+}
+
+.aside_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+    font-size: 12px;
+    color: black;
+    border-radius: 10px;
+}
+
+.aside_buttons:hover {
+    background-color: #f2f2f2;
+}
+
+
+.top_scrolling_bar {
+    align-items: center;
+    overflow-x:auto;
+    height: 60px;
+    width: 100%;
+    position:fixed;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px;
+
+    
+}
+
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nav-link {
+    white-space: nowrap;
+    border-radius: var(--bs-nav-pills-border-radius);
+    color: black;
+
+}
+
+.nav-item {
+    background-color: #f2f2f2;
+    border-radius: 6px;
+}
+
+.nav-item:hover {
+    background-color: #ededed;
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: #ffffff;
+    --bs-nav-pills-link-active-bg: black;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+body {
+    /* overflow-y: hidden; */
+    /* Hide the vertical scrollbar */
+} 
+
+aside::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
+.body_section{
+    width: 94%;
+    padding-left: 6%;
+   
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+}
+
+
+.youtube_video_body{
+    padding-top: 100px;
+    overflow: hidden;
+    
+}
+
+/* .card-title{
+    font-size: 10px;
+} */
+
+.card{
+    width: auto;
+
+    overflow: hidden;
+}
+
+
+/* iframe:hover{
+
+    <iframe width="428" height="250" src="https://www.youtube.com/embed/3ZFVEuAD-JY?si=KTLmPjzGtQyirk5a"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
